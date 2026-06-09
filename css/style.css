@@ -362,6 +362,22 @@ img { max-width: 100%; display: block; }
   border: 1px solid #f0f0f0;
 }
 
+.personal-photos-xhs {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.personal-photos-xhs img {
+  width: 45%;
+  max-width: 280px;
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 1px solid #f0f0f0;
+}
+
 /* Footer */
 .footer {
   max-width: 820px;
