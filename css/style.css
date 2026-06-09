@@ -23,7 +23,7 @@ img { max-width: 100%; display: block; }
   z-index: 100;
   background: rgba(255,255,255,0.92);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #fecaca;
+  border-bottom: 1px solid #ffcdd2;
 }
 
 .nav-inner {
@@ -53,7 +53,7 @@ img { max-width: 100%; display: block; }
   transition: color 0.15s;
 }
 
-.nav-links a:hover { color: #ef4444; }
+.nav-links a:hover { color: #ff2442; }
 
 .nav-toggle { display: none; background: none; border: none; font-size: 1.3rem; cursor: pointer; color: #333; }
 
@@ -62,7 +62,7 @@ img { max-width: 100%; display: block; }
   padding: 100px 24px 48px;
   text-align: center;
   background: linear-gradient(180deg, #fff5f5 0%, #fff 100%);
-  border-bottom: 1px solid #fee2e2;
+  border-bottom: 1px solid #ffcdd2;
 }
 
 .header-photo {
@@ -71,8 +71,8 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 16px;
-  border: 3px solid #fecaca;
-  box-shadow: 0 2px 12px rgba(239,68,68,0.15);
+  border: 3px solid #ffcdd2;
+  box-shadow: 0 2px 12px rgba(255,36,66,0.15);
 }
 
 .header-name {
@@ -104,7 +104,7 @@ img { max-width: 100%; display: block; }
   max-width: 820px;
   margin: 0 auto;
   padding: 48px 24px;
-  border-bottom: 1px solid #fecaca;
+  border-bottom: 1px solid #ffcdd2;
 }
 
 .section:last-of-type { border-bottom: none; }
@@ -114,7 +114,7 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   margin-bottom: 24px;
   padding-bottom: 8px;
-  border-bottom: 2px solid #fecaca;
+  border-bottom: 2px solid #ffcdd2;
 }
 
 /* Card Grid */
@@ -126,10 +126,10 @@ img { max-width: 100%; display: block; }
 
 .card {
   background: #fff;
-  border: 1px solid #fca5a5;
+  border: 1px solid #ff8a93;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
+  box-shadow: 0 1px 4px rgba(255,36,66,0.06);
 }
 
 .card-school {
@@ -171,11 +171,11 @@ img { max-width: 100%; display: block; }
 /* Experience Card */
 .exp-card {
   background: #fff;
-  border: 1px solid #fca5a5;
+  border: 1px solid #ff8a93;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 14px;
-  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
+  box-shadow: 0 1px 4px rgba(255,36,66,0.06);
 }
 
 .exp-card:last-child { margin-bottom: 0; }
@@ -201,7 +201,7 @@ img { max-width: 100%; display: block; }
 
 .exp-date {
   font-size: 0.8rem;
-  color: #ef4444;
+  color: #ff2442;
   font-weight: 600;
   white-space: nowrap;
   flex-shrink: 0;
@@ -221,18 +221,18 @@ img { max-width: 100%; display: block; }
 
 .exp-card li:last-child { margin-bottom: 0; }
 
-.exp-card strong { color: #ef4444; font-weight: 600; }
+.exp-card strong { color: #ff2442; font-weight: 600; }
 
 /* Project Card */
 .proj-card {
   display: flex;
   gap: 14px;
   background: #fff;
-  border: 1px solid #fca5a5;
+  border: 1px solid #ff8a93;
   border-radius: 10px;
   padding: 18px 20px;
   margin-bottom: 12px;
-  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
+  box-shadow: 0 1px 4px rgba(255,36,66,0.06);
 }
 
 .proj-card:last-child { margin-bottom: 0; }
@@ -257,7 +257,7 @@ img { max-width: 100%; display: block; }
 
 .proj-link {
   font-size: 0.83rem;
-  color: #ef4444;
+  color: #ff2442;
   font-weight: 500;
 }
 
@@ -308,7 +308,7 @@ img { max-width: 100%; display: block; }
 
 .skill-bar div {
   height: 100%;
-  background: linear-gradient(90deg, #ef4444, #f87171);
+  background: linear-gradient(90deg, #ff2442, #ff5a6e);
   border-radius: 4px;
   transition: width 1s ease;
 }
@@ -325,16 +325,16 @@ img { max-width: 100%; display: block; }
   background: #fff5f5;
   padding: 5px 14px;
   border-radius: 20px;
-  border: 1px solid #fca5a5;
+  border: 1px solid #ff8a93;
 }
 
 /* Personal */
 .personal-card {
   background: #fff;
-  border: 1px solid #fca5a5;
+  border: 1px solid #ff8a93;
   border-radius: 10px;
   padding: 24px;
-  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
+  box-shadow: 0 1px 4px rgba(255,36,66,0.06);
   text-align: center;
 }
 
@@ -362,7 +362,7 @@ img { max-width: 100%; display: block; }
   border-radius: 10px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 1px solid #fca5a5;
+  border: 1px solid #ff8a93;
 }
 
 .personal-photos-xhs {
