@@ -23,7 +23,7 @@ img { max-width: 100%; display: block; }
   z-index: 100;
   background: rgba(255,255,255,0.92);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #fecaca;
 }
 
 .nav-inner {
@@ -71,7 +71,7 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 16px;
-  border: 3px solid #fff;
+  border: 3px solid #fecaca;
   box-shadow: 0 2px 12px rgba(239,68,68,0.15);
 }
 
@@ -104,7 +104,7 @@ img { max-width: 100%; display: block; }
   max-width: 820px;
   margin: 0 auto;
   padding: 48px 24px;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #fecaca;
 }
 
 .section:last-of-type { border-bottom: none; }
@@ -113,6 +113,8 @@ img { max-width: 100%; display: block; }
   font-size: 1.15rem;
   font-weight: 700;
   margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #fecaca;
 }
 
 /* Card Grid */
@@ -124,10 +126,10 @@ img { max-width: 100%; display: block; }
 
 .card {
   background: #fff;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #fca5a5;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
 }
 
 .card-school {
@@ -169,11 +171,11 @@ img { max-width: 100%; display: block; }
 /* Experience Card */
 .exp-card {
   background: #fff;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #fca5a5;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 14px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
 }
 
 .exp-card:last-child { margin-bottom: 0; }
@@ -226,11 +228,11 @@ img { max-width: 100%; display: block; }
   display: flex;
   gap: 14px;
   background: #fff;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #fca5a5;
   border-radius: 10px;
   padding: 18px 20px;
   margin-bottom: 12px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
 }
 
 .proj-card:last-child { margin-bottom: 0; }
@@ -320,19 +322,19 @@ img { max-width: 100%; display: block; }
 .lang-tags span {
   font-size: 0.82rem;
   color: #555;
-  background: #f5f5f5;
+  background: #fff5f5;
   padding: 5px 14px;
   border-radius: 20px;
-  border: 1px solid #eee;
+  border: 1px solid #fca5a5;
 }
 
 /* Personal */
 .personal-card {
   background: #fff;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #fca5a5;
   border-radius: 10px;
   padding: 24px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 4px rgba(239,68,68,0.06);
   text-align: center;
 }
 
@@ -360,7 +362,7 @@ img { max-width: 100%; display: block; }
   border-radius: 10px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #fca5a5;
 }
 
 .personal-photos-xhs {
