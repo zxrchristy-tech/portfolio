@@ -23,7 +23,7 @@ img { max-width: 100%; display: block; }
   z-index: 100;
   background: rgba(255,255,255,0.92);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #ffb3b3;
+  border-bottom: 1px solid #e60012;
 }
 
 .nav-inner {
@@ -62,7 +62,7 @@ img { max-width: 100%; display: block; }
   padding: 100px 24px 48px;
   text-align: center;
   background: linear-gradient(180deg, #fff5f5 0%, #fff 100%);
-  border-bottom: 1px solid #ffb3b3;
+  border-bottom: 1px solid #e60012;
 }
 
 .header-photo {
@@ -71,7 +71,7 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 16px;
-  border: 3px solid #ffb3b3;
+  border: 3px solid #e60012;
   box-shadow: 0 2px 12px rgba(230,0,18,0.15);
 }
 
@@ -104,7 +104,7 @@ img { max-width: 100%; display: block; }
   max-width: 820px;
   margin: 0 auto;
   padding: 48px 24px;
-  border-bottom: 1px solid #ffb3b3;
+  border-bottom: 1px solid #e60012;
 }
 
 .section:last-of-type { border-bottom: none; }
@@ -114,7 +114,7 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   margin-bottom: 24px;
   padding-bottom: 8px;
-  border-bottom: 2px solid #ffb3b3;
+  border-bottom: 2px solid #e60012;
 }
 
 /* Card Grid */
@@ -126,7 +126,7 @@ img { max-width: 100%; display: block; }
 
 .card {
   background: #fff;
-  border: 1px solid #ff4d4d;
+  border: 1px solid #e60012;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 1px 4px rgba(230,0,18,0.06);
@@ -171,7 +171,7 @@ img { max-width: 100%; display: block; }
 /* Experience Card */
 .exp-card {
   background: #fff;
-  border: 1px solid #ff4d4d;
+  border: 1px solid #e60012;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 14px;
@@ -228,7 +228,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   gap: 14px;
   background: #fff;
-  border: 1px solid #ff4d4d;
+  border: 1px solid #e60012;
   border-radius: 10px;
   padding: 18px 20px;
   margin-bottom: 12px;
@@ -308,7 +308,7 @@ img { max-width: 100%; display: block; }
 
 .skill-bar div {
   height: 100%;
-  background: linear-gradient(90deg, #e60012, #ff3344);
+  background: linear-gradient(90deg, #e60012, #e60012);
   border-radius: 4px;
   transition: width 1s ease;
 }
@@ -325,13 +325,13 @@ img { max-width: 100%; display: block; }
   background: #fff5f5;
   padding: 5px 14px;
   border-radius: 20px;
-  border: 1px solid #ff4d4d;
+  border: 1px solid #e60012;
 }
 
 /* Personal */
 .personal-card {
   background: #fff;
-  border: 1px solid #ff4d4d;
+  border: 1px solid #e60012;
   border-radius: 10px;
   padding: 24px;
   box-shadow: 0 1px 4px rgba(230,0,18,0.06);
@@ -362,7 +362,7 @@ img { max-width: 100%; display: block; }
   border-radius: 10px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 1px solid #ff4d4d;
+  border: 1px solid #e60012;
 }
 
 .personal-photos-xhs {
